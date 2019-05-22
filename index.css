@@ -116,6 +116,11 @@ body {
     font-size: 140%;
     font-weight: bold;
 }
+.content .properties .property .identifier .adjective .minor {
+    display: block;
+    font-size: 75%;
+    font-weight: normal;
+}
 .content .properties .property .identifier .icon {
     margin-top: 10px;
     font-size: 220%;
