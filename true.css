@@ -1,0 +1,172 @@
+/*
+**  TRUE -- Manifesto of TRUE Software Engineering
+**  Copyright (c) 2019 Dr. Ralf S. Engelschall <http://engelschall.com/>
+**  Licensed under CC-BY-NC-ND 4.0 <https://creativecommons.org/licenses/by-nc-nd/4.0/>
+*/
+
+@import "lib/typopro/TypoPRO-Overlock/TypoPRO-Overlock.css";
+
+html,
+body {
+    background-color: #111111;
+    font-family: "TypoPRO Overlock";
+    font-size: 14pt;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body {
+    background-image: url("true-bg.jpg");
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.langs {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff0e0;
+}
+.langs span.icon-lang {
+    padding: 1px 8px 1px 8px;
+    border: 1px solid #7f7f60;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.langs span.icon-lang.active {
+    background-color: #fff0e0d0;
+    color: #111111;
+}
+
+.content {
+    position: relative;
+    margin-top: 20px;
+}
+
+.content .title {
+    font-size: 39pt;
+    font-weight: bold;
+    line-height: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+    opacity: 0.90;
+    color: #fff0e0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.content .title b {
+    font-weight: 900;
+}
+.content .title #sea-logo {
+    opacity: 0.95;
+    height: 110px;
+    float: left;
+    margin-right: 40px;
+}
+
+.content .footer {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 11pt;
+    color: #fff0e0;
+    opacity: 0.5;
+    width: 100%;
+    text-align: center;
+}
+.content .footer a,
+.content .footer a:visited {
+    color: #fff0e0;
+    text-decoration: underline;
+}
+
+.content .properties {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 800px;
+}
+
+.content .properties .property {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.content .properties .property .identifier {
+    width: 140px;
+    min-width: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+    background-color: #fff0e0d0;
+    color: #111111;
+}
+.content .properties .property .identifier .letter {
+    font-size: 700%;
+    font-weight: 900;
+}
+.content .properties .property .identifier .adjective {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+.content .properties .property .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 0 8px 8px 0;
+    background-color: #00000070;
+    color: #fff0e0;
+}
+
+.content .properties .property .description .statement {
+    padding-top: 8px;
+}
+.content .properties .property .description .statement,
+.content .properties .property .description .rationale,
+.content .properties .property .description .implications,
+.content .properties .property .description .thinkalso {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-bottom: 8px;
+}
+.content .properties .property .description * .label {
+    width: 140px;
+}
+.content .properties .property .description * .sentences {
+    width: 100%;
+    line-height: 110%;
+}
+.content .properties .property .description .statement .sentences,
+.content .properties .property .description .implications .sentences {
+    font-weight: bold;
+}
+.content .properties .property .description .implications .sentences .sentence {
+    margin-bottom: 6px;
+}
+.content .properties .property .description .implications .sentences .sentence:last-child {
+    margin-bottom: 0px;
+}
+.content .properties .property .description .statement .sentences {
+    font-size: 120%;
+}
+.content .properties .property .description .rationale {
+    opacity: 0.90;
+}
+.content .properties .property .description .implications {
+    opacity: 0.80;
+}
+.content .properties .property .description .thinkalso {
+    opacity: 0.70;
+}
+
