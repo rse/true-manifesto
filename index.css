@@ -5,6 +5,7 @@
 */
 
 @import "lib/typopro/TypoPRO-Overlock/TypoPRO-Overlock.css";
+@import "lib/fontawesome/fontawesome.css";
 
 html,
 body {
@@ -111,8 +112,14 @@ body {
     font-weight: 900;
 }
 .content .properties .property .identifier .adjective {
+    margin-top: -10px;
     font-size: 140%;
     font-weight: bold;
+}
+.content .properties .property .identifier .icon {
+    margin-top: 10px;
+    font-size: 220%;
+    opacity: 0.8;
 }
 
 .content .properties .property .description {

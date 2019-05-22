@@ -19,7 +19,23 @@ module.exports = function (grunt) {
                     { expand: true, flatten: false, cwd: "node_modules/typopro-web/web",
                       src: "TypoPRO-Overlock/**", dest: "lib/typopro/" }
                 ]
-            }
+            },
+            "font-awesome-css": {
+                src: [ "node_modules/@fortawesome/fontawesome-free/css/all.css" ],
+                dest: "lib/fontawesome/fontawesome.css",
+                options: {
+                    process: function (content, srcpath) {
+                        return content.replace(/\.\.\/webfonts\/fa-/g, "fontawesome-");
+                    }
+                }
+            },
+            "font-awesome-fonts": {
+                files: [{
+                    expand: true, flatten: false, cwd: "node_modules/@fortawesome/fontawesome-free/webfonts",
+                    src: "fa-*", dest: "lib/fontawesome/",
+                    rename: function (src, dest) { return src + dest.replace(/fa-/, "fontawesome-"); }
+                }]
+            },
         },
         clean: {
             clean:     [ "lib" ],
