@@ -197,9 +197,9 @@ body {
     font-size: 140%;
 }
 .content .properties .property .description .rationale {
-    opacity: 0.90;
+    opacity: 0.85;
 }
 .content .properties .property .description .implications {
-    opacity: 0.80;
+    opacity: 0.70;
 }
 
