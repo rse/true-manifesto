@@ -87,7 +87,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 800px;
+    width: 900px;
 }
 
 .content .properties .property {
@@ -95,36 +95,58 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 10px;
+    position: relative;
+}
+
+.content .properties .property .icon {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    font-size: 900%;
+    opacity: 0.1;
 }
 
 .content .properties .property .identifier {
-    width: 140px;
-    min-width: 140px;
+    width: 10px;
+    min-width: 100px;
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
     border-radius: 8px 0 0 8px;
     background-color: #fff0e0d0;
     color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .content .properties .property .identifier .letter {
-    font-size: 700%;
+    font-size: 950%;
     font-weight: 900;
 }
-.content .properties .property .identifier .adjective {
-    margin-top: -10px;
+
+.content .properties .property .adjectives {
+    width: 140px;
+    min-width: 140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #fff0e0d0;
+    color: #111111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content .properties .property .adjectives .adjective:first-child {
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.content .properties .property .adjectives .adjective {
     font-size: 140%;
     font-weight: bold;
 }
-.content .properties .property .identifier .adjective .minor {
+.content .properties .property .adjectives .adjective .minor {
     display: block;
     font-size: 75%;
     font-weight: normal;
-}
-.content .properties .property .identifier .icon {
-    margin-top: 10px;
-    font-size: 220%;
-    opacity: 0.8;
 }
 
 .content .properties .property .description {
@@ -153,7 +175,8 @@ body {
     padding-bottom: 8px;
 }
 .content .properties .property .description * .label {
-    width: 140px;
+    width: 100px;
+    font-size: 75%;
 }
 .content .properties .property .description * .sentences {
     width: 100%;
@@ -170,7 +193,7 @@ body {
     margin-bottom: 0px;
 }
 .content .properties .property .description .statement .sentences {
-    font-size: 120%;
+    font-size: 140%;
 }
 .content .properties .property .description .rationale {
     opacity: 0.90;
