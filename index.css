@@ -167,8 +167,7 @@ body {
 }
 .content .properties .property .description .statement,
 .content .properties .property .description .rationale,
-.content .properties .property .description .implications,
-.content .properties .property .description .thinkalso {
+.content .properties .property .description .implications {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -177,6 +176,7 @@ body {
 .content .properties .property .description * .label {
     width: 100px;
     font-size: 75%;
+    opacity: 0.7;
 }
 .content .properties .property .description * .sentences {
     width: 100%;
@@ -201,8 +201,5 @@ body {
 }
 .content .properties .property .description .implications {
     opacity: 0.80;
-}
-.content .properties .property .description .thinkalso {
-    opacity: 0.70;
 }
 
