@@ -182,9 +182,10 @@ body {
     width: 100%;
     line-height: 110%;
 }
-.content .properties .property .description .statement .sentences,
-.content .properties .property .description .implications .sentences {
+.content .properties .property .description .statement .sentences {
     font-weight: bold;
+}
+.content .properties .property .description .implications .sentences {
 }
 .content .properties .property .description .implications .sentences .sentence {
     margin-bottom: 6px;
