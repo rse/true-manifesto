@@ -199,6 +199,7 @@ body {
     border-radius: 0 8px 8px 0;
     background-color: #000000;
     color: #fff0e0;
+    width: 660px;
 }
 
 .content .properties .property .description .statement {
