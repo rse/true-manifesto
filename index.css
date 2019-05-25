@@ -255,7 +255,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 850px;
+    width: 900px;
 }
 
 .content .domains .domain {
@@ -263,17 +263,28 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 10px;
+    position: relative;
 }
-
+.content .domains .domain > .icon {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    font-size: 500%;
+    opacity: 0.1;
+}
 .content .domains .domain > .name {
     border-radius: 8px 0 0 8px;
     background-color: #fff0e0d0;
     color: #111111;
     font-size: 16pt;
     font-weight: 900;
-    width: 170px;
-    min-width: 170px;
+    width: 180px;
+    min-width: 180px;
     padding: 10px 10px 10px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .content .domains .domain .disciplines {
     display: flex;
@@ -295,10 +306,11 @@ body {
     color: #111111;
     font-size: 16pt;
     font-weight: bold;
-    width: 180px;
+    width: 200px;
     min-width: 200px;
     padding: 5px 20px 5px 20px;
     opacity: 0.9;
+    text-align: right;
 }
 .content .domains .domain .disciplines .discipline .statement {
     padding: 5px 20px 5px 20px;
