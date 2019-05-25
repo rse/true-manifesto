@@ -251,3 +251,57 @@ body {
     display: block;
 }
 
+.content .domains {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 850px;
+}
+
+.content .domains .domain {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.content .domains .domain > .name {
+    border-radius: 8px 0 0 8px;
+    background-color: #fff0e0d0;
+    color: #111111;
+    font-size: 16pt;
+    font-weight: 900;
+    width: 170px;
+    min-width: 170px;
+    padding: 10px 10px 10px 10px;
+}
+.content .domains .domain .disciplines {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #00000070;
+    color: #fff0e0;
+    border-radius: 0 8px 8px 0;
+    background-color: #00000070;
+    width: 100%;
+}
+.content .domains .domain .disciplines .discipline {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.content .domains .domain .disciplines .discipline .name {
+    background-color: #fff0e0d0;
+    color: #111111;
+    font-size: 16pt;
+    font-weight: bold;
+    width: 180px;
+    min-width: 200px;
+    padding: 5px 20px 5px 20px;
+    opacity: 0.9;
+}
+.content .domains .domain .disciplines .discipline .statement {
+    padding: 5px 20px 5px 20px;
+    font-size: 16pt;
+}
+
