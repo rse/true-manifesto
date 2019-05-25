@@ -316,6 +316,14 @@ body {
     opacity: 0.9;
     text-align: right;
     border-top: 1px solid #dfd0c0;
+    position: relative;
+}
+.content .domains .domain .disciplines .discipline .name .icon {
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    font-size: 200%;
+    opacity: 0.1;
 }
 .content .domains .domain .disciplines .discipline:first-child .name {
     border-top: 0px;
