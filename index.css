@@ -7,21 +7,22 @@
 @import "lib/typopro/TypoPRO-Overlock/TypoPRO-Overlock.css";
 @import "lib/fontawesome/fontawesome.css";
 
-html,
+html {
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #111111;
+    background-image: url("true-bg.jpg");
     font-family: "TypoPRO Overlock";
     font-size: 14pt;
-    margin: 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-body {
-    background-image: url("true-bg.jpg");
     position: relative;
     width: 100%;
     height: 100%;
+    min-height: 100%;
 }
 
 .content {
