@@ -52,7 +52,7 @@ body {
     text-decoration: none;
 }
 .content .header .pages a.page.active {
-    background-color: #fff0e0d0;
+    background-color: #fff0e0;
     color: #111111;
 }
 
@@ -72,7 +72,7 @@ body {
     text-decoration: none;
 }
 .content .header .langs a.icon-lang.active {
-    background-color: #fff0e0d0;
+    background-color: #fff0e0;
     color: #111111;
 }
 
@@ -83,7 +83,6 @@ body {
     margin: 0px;
     margin-bottom: 20px;
     width: 900px;
-    opacity: 0.90;
     color: #fff0e0;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -92,7 +91,6 @@ body {
     font-weight: 900;
 }
 .content .title #sea-logo {
-    opacity: 0.95;
     height: 110px;
     float: left;
     margin-right: 40px;
@@ -154,7 +152,7 @@ body {
     padding-right: 0px;
     text-align: center;
     border-radius: 8px 0 0 8px;
-    background-color: #fff0e0d0;
+    background-color: #fff0e0;
     color: #111111;
     display: flex;
     flex-direction: column;
@@ -170,7 +168,7 @@ body {
     min-width: 140px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #fff0e0d0;
+    background-color: #fff0e0;
     color: #111111;
     display: flex;
     flex-direction: column;
@@ -199,7 +197,7 @@ body {
     padding-top: 4px;
     padding-bottom: 4px;
     border-radius: 0 8px 8px 0;
-    background-color: #00000070;
+    background-color: #000000;
     color: #fff0e0;
 }
 
@@ -274,12 +272,12 @@ body {
 }
 .content .domains .domain > .name {
     border-radius: 8px 0 0 8px;
-    background-color: #fff0e0d0;
+    background-color: #fff0e0;
     color: #111111;
-    font-size: 16pt;
+    font-size: 18pt;
     font-weight: 900;
-    width: 180px;
-    min-width: 180px;
+    width: 190px;
+    min-width: 190px;
     padding: 10px 10px 10px 10px;
     text-align: center;
     display: flex;
@@ -290,10 +288,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #00000070;
     color: #fff0e0;
     border-radius: 0 8px 8px 0;
-    background-color: #00000070;
+    background-color: #000000;
     width: 100%;
 }
 .content .domains .domain .disciplines .discipline {
@@ -302,7 +299,7 @@ body {
     justify-content: flex-start;
 }
 .content .domains .domain .disciplines .discipline .name {
-    background-color: #fff0e0d0;
+    background-color: #fff0e0;
     color: #111111;
     font-size: 16pt;
     font-weight: bold;
