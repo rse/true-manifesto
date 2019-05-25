@@ -24,26 +24,56 @@ body {
     height: 100%;
 }
 
-.langs {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+.content {
+    position: relative;
+    margin-top: 20px;
+}
+
+.content .header {
+    font-size: 12pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.content .header .pages {
     color: #fff0e0;
 }
-.langs span.icon-lang {
+.content .header .pages a.page {
     padding: 1px 8px 1px 8px;
     border: 1px solid #7f7f60;
     border-radius: 4px;
     cursor: pointer;
+    color: #fff0e0;
 }
-.langs span.icon-lang.active {
+.content .header .pages a.page,
+.content .header .pages a.page:visited {
+    text-decoration: none;
+}
+.content .header .pages a.page.active {
     background-color: #fff0e0d0;
     color: #111111;
 }
 
-.content {
-    position: relative;
-    margin-top: 20px;
+.content .header .langs {
+    margin-left: 20px;
+    color: #fff0e0;
+}
+.content .header .langs a.icon-lang {
+    padding: 1px 8px 1px 8px;
+    border: 1px solid #7f7f60;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff0e0;
+}
+.content .header .langs a.icon-lang,
+.content .header .langs a.icon-lang:visited {
+    text-decoration: none;
+}
+.content .header .langs a.icon-lang.active {
+    background-color: #fff0e0d0;
+    color: #111111;
 }
 
 .content .title {
@@ -52,7 +82,7 @@ body {
     line-height: 100%;
     margin: 0px;
     margin-bottom: 20px;
-    width: 100%;
+    width: 900px;
     opacity: 0.90;
     color: #fff0e0;
     padding-top: 20px;
@@ -81,6 +111,17 @@ body {
 .content .footer a:visited {
     color: #fff0e0;
     text-decoration: underline;
+}
+
+.content .text {
+    font-size: 16pt;
+    width: 850px;
+    color: #fff0e0;
+}
+.content .text a,
+.content .text a:visited {
+    text-decoration: underline;
+    color: #fff0e0;
 }
 
 .content .properties {
@@ -201,5 +242,12 @@ body {
 }
 .content .properties .property .description .implications {
     opacity: 0.70;
+}
+
+.content > .page {
+    display: none;
+}
+.content > .page.active {
+    display: block;
 }
 
