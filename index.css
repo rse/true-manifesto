@@ -77,6 +77,10 @@ body {
     color: #111111;
 }
 
+.content .header .social {
+    margin-left: 20px;
+}
+
 .content .title {
     font-size: 39pt;
     font-weight: bold;
