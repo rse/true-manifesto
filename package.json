@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "normalize.css":              "8.0.1",
-        "@fortawesome/fontawesome-free": "5.8.2",
+        "@fortawesome/fontawesome-free": "5.10.1",
         "jquery":                     "3.4.1",
         "typopro-web":                "4.2.0"
     }
