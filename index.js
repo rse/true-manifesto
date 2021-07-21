@@ -1,6 +1,6 @@
 /*
 **  TRUE -- Manifesto of TRUE Software Engineering
-**  Copyright (c) 2019 Dr. Ralf S. Engelschall <http://engelschall.com/>
+**  Copyright (c) 2019-2021 Dr. Ralf S. Engelschall <http://engelschall.com/>
 **  Licensed under CC-BY-NC-ND 4.0 <https://creativecommons.org/licenses/by-nc-nd/4.0/>
 */
 
