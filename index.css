@@ -79,6 +79,12 @@ body {
 
 .content .header .social {
     margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content .header .social div {
+    margin-left: 5px;
 }
 
 .content .title {
